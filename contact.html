@@ -1,0 +1,110 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <meta name="description" content="Contact Patrick Farrell Physiotherapy Clinic Dublin. Contact information: Call us: 01 4177500 Fax: 01 4177533 Email: info@pfphysio.ie" />
+        <meta name="keywords" content="Patrick Farrell Physiotherapy, Dublin, contact, physiotherapy appointment." />
+        
+        <link rel="stylesheet" type="text/css" href="pfstylesheet.css" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+		<title>Patrick Farrell Physiotherapy | Contact Us</title>
+        
+        <script type="text/javascript" src="pfscript.js"></script>
+	</head>
+	<body>
+		<header>
+    		<div id="logopos">
+   			  <a href="index.html" title="Home"><img src="graphics/pf_logo.png" alt="Patrick Farrell Physiotherapy" /></a>
+    		</div>
+  			<nav>
+   				<ul>
+                	<li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a>
+                    	<ul>
+                    		<li><a href="staff.html">Staff</a></li>
+                        	<li><a href="services.html">Services</a></li>
+                            <li><a href="testimonials.html">Testimonals</a></li>
+                    	</ul>
+                    </li>
+                    <li><a href="contact.html" title="Contact Us">Contact Us</a>
+    					<ul>
+                        	<li><a id="book" href="booking.html" title="Book an Appointment">Bookings</a></li>
+                        </ul>
+                    </li>
+    				<li><a href="faq.html" title="FAQ">FAQ</a>
+                    	<ul>
+                        	<li><a href="services.html#pricing">Pricing</a></li>
+                        </ul>
+                    </li>
+                </ul>
+  			</nav>
+  		</header>
+       <aside id="aside_left">
+        	<div id="social">
+            	<ul>
+                	<li><a href="http://www.facebook.com"><img src="graphics/facebook.png" alt="facebook logo" /></a></li>
+                    <li><a href="http://www.twitter.com"><img src="graphics/twitter.png" alt="twitter logo" /></a></li>
+                    <li><a href="http://www.linkedIn.com"><img src="graphics/linkedin.png" alt="linkedin logo" /></a></li>
+                </ul>
+            </div>
+        </aside>
+        <section>           	
+        	<h1>Get in Touch</h1>
+            <article id="contactleft">
+            	<form name="contact" id="contact" method="post" onSubmit="PopUp()" >
+                	<ul>
+                    	<li><label for="name">Name:<span class="req"> *</span></label></li>
+                        <li><input class="text" id="name" type="text" size="45" required pattern="[A-Za-z]*" /></li>
+                        <li><label for="email">Email:<span class="req"> *</span></label></li>
+                        <li><input class="text" id="email" type="email" size="45" required /></li>
+                        <li><label for="phone">Phone:<span class="req"> *</span></label></li>
+                        <li><input class="text" id="phone" type="text" size="45" required pattern="[0-9]*" /></li>
+                        <li>Subject:</li>
+                        <li><select class="text" id="drop" name="query" onChange="QueryType()">
+                        		<option value="general">General Query</option>
+                            	<option value="sports">Sports Injury Query</option>
+                           		<option value="acupuncture">Acupuncture Query</option>
+                            	<option value="sports">Sports Injury Query</option>
+                            	<option value="paper">Request Documents</option>
+                            	<option value="book">Book an Appointment</option>
+                        	</select>
+                        </li>
+                        <li><label for="textarea">Message:</label></li>
+                        <li><textarea class="text" id="textarea" placeholder="Enter your message..." ></textarea></li>
+                        <li><input id="sub" type="submit" value="Send" /></li>
+                    </ul>
+                </form>
+            </article>
+        	<article id="contactright">
+            	<ul>
+                	<li>Call us: 01 4177500</li>
+                    <li>Fax: 01 4177533</li>
+                	<li>Email: <a href="mailto:info@pfphysio.ie?Subject=General%20Query" target="_top" title="info@pfphysio.ie">info@pfphysio.ie</a></li>
+                </ul>
+                <img src="graphics/location.png" onClick="DisplayMap()" alt="Location"/>
+            </article>
+        	
+        </section>
+        <aside id="aside_right">
+        </aside>
+        <footer>
+        	<ul>
+                <li><a href="contact.html" title="Contact Us">Contact</a></li>
+                <li><a href="services.html" title="Our Services">Services</a></li>
+                <li><a href="faq.html" title="FAQ">FAQ</a></li>
+                <li><a href="services.html#pricing" title="Pricing">Pricing</a></li>
+                <li><a href="sitemap.html" title="Site Map">Sitemap</a></li>
+            </ul>
+            <ul>
+            	<li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About Us">About</a></li>
+                <li><a href="staff.html" title="Staff">Staff</a></li>
+                <li><a href="booking.html" title="Bookings">Bookings</a></li>
+            </ul>
+        	<div id="copy">&copy; 2014 Mike Maher Media</div>
+        </footer>
+	</body>
+</html>
